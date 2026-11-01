@@ -1,3 +1,24 @@
-baseURL = 'https://example.org/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+baseURL = "https://justhart.com/"
+languageCode = "en-gb"
+title = "Justin Hartman"
+theme = "PaperMod"
+enableRobotsTXT = true
+
+[pagination]
+  pagerSize = 10
+
+[taxonomies]
+  tag = "tags"
+
+[permalinks.page]
+  posts = "/:slug/"
+
+[permalinks.term]
+  tags = "/tag/:slug/"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[outputs]
+  home = ["HTML", "RSS"]
+
