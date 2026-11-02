@@ -1,4 +1,5 @@
-baseURL = "https://justinhartman.co/justhart/"
+#baseURL = "https://justhart.com/"
+baseURL = "https://iamjustinhartman.github.io/"
 title = "Justin Hartman"
 theme = "PaperMod"
 enableRobotsTXT = true
