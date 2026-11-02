@@ -1,11 +1,47 @@
 baseURL = "https://justinhartman.co/justhart/"
-languageCode = "en-gb"
 title = "Justin Hartman"
 theme = "PaperMod"
 enableRobotsTXT = true
 
+# [params.homeInfoParams]
+#   Title = "Hi there wave"
+#   Content = "Can be Info, links, about..."
+# [params.homeInfoParams.socialIcons.linkedin]
+#   name = "LinkedIn"
+#   url  = "https://linkedin.com/in/justinhartman"
+
+[params.profileMode]
+  enabled     = false
+  title       = "Justin Hartman" # optional default will be site title
+  subtitle    = "This is subtitle"
+  imageUrl    = "https://images.unsplash.com/photo-1529268209110-62be1d87fe75?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDN8fGdvb2RieWUlMjBmcmllbmR8ZW58MHx8fHwxNzE3ODAwMTY0fDA&ixlib=rb-4.0.3&q=80&w=2000" # optional
+  imageTitle  = "Justin Hartman" # optional
+  imageWidth  = 500 # custom size
+  imageHeight = 500 # custom size
+[params.profileMode.buttons.archive]
+  name = "Archive"
+  url  = "/justhart/archives"
+[params.profileMode.buttons.github]
+  name = "Github"
+  url  = "https://github.com/justinhartman"
+[params.profileMode.buttons.linkedin]
+  name = "LinkedIn"
+  url  = "https://linkedin.com/in/justinhartman"
+[params.profileMode.socialIcons.GitHub]
+  name = "GitHub"
+  url  = ""
+[params.profileMode.socialIcons.twitter]
+  name = "X"
+  url  = "https://x.com/justinhartman"
+[params.profileMode.socialIcons.instagram]
+  name = "Instagram"
+  url  = "https://instagram.com/justin.hartman"
+[params.profileMode.socialIcons.facebook]
+  name = "Facebook"
+  url  = "https://facebook.com/justinhartman.co"
+
 [pagination]
-  pagerSize = 10
+  pagerSize = 20
 
 [taxonomies]
   tag = "tags"
